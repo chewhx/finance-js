@@ -1,13 +1,22 @@
 {
-	"name": "finance-js",
+	"name": "@chewhx/financejs",
 	"version": "1.0.0",
 	"description": "",
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "rimraf dist && tsup",
-		"test": "jest"
+		"test": "jest",
+		"docs": "npm start --prefix docs"
 	},
-	"keywords": [],
+	"keywords": [
+		"finance",
+		"javascript",
+		"futurevalue",
+		"presentvalue",
+		"amortization",
+		"dcf",
+		"irr"
+	],
 	"author": "Chew Han Xiang <hello@chewhx.com>",
 	"license": "MIT",
 	"devDependencies": {

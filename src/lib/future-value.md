@@ -1,43 +1,43 @@
-# Present Value (PV)
+# Future Value (FV)
 
 ```javascript
-import { presentValue } from '@chewhx/financejs';
+import { futureValue } from '@chewhx/financejs';
 ```
 
 ## Examples
 
-### Present value of $10,000 in 4 years, annual rate of 5%
+### Future value of $10,000, annual rate of 5%, 4 years from now
 
 ```javascript
-presentValue({
+futureValue({
 	annualRate: 0.05,
 	years: 4,
-	futureValue: 10_000,
+	presentValue: 10_000,
 });
-// 8227.02
+// 12155.06
 ```
 
-### Present value of $10,000 in 4 years, annual rate of 5%, accrued monthly
+### Future value of $10,000, annual rate of 5%, accrued monthly, 4 years from now
 
 ```javascript
-presentValue({
+futureValue({
 	annualRate: 0.05,
 	years: 4,
-	futureValue: 10_000,
+	presentValue: 10_000,
 	frequency: 'monthly',
 });
-// 8190.71
+// 12208.95
 ```
 
 ## Parameters
 
 ```typescript
 {
-	/** Interest rate per annual */
+	/** Interest rate per annual in decimals, between 0 - 1*/
 	annualRate: number;
 
 	/** Current value of the asset */
-	futureValue: number;
+	presentValue: number;
 
 	/** Number of years */
 	years: number;

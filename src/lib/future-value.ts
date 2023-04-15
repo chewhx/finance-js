@@ -3,7 +3,7 @@ import { checkRate } from './utils/checkRate';
 import { toDecimal } from './utils/toDecimal';
 
 export type FutureValueArgs = {
-	/** Interest rate per annual */
+	/** Interest rate per annual in decimals, between 0 - 1*/
 	annualRate: number;
 
 	/** Current value of the asset */
