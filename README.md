@@ -18,6 +18,11 @@
     - [NPV of an initial investment of $50,000, over 5 years](#npv-of-an-initial-investment-of-50000-over-5-years)
   - [Parameters](#parameters-2)
   - [Concept](#concept-2)
+- [Internal Rate of Return (IRR)](#internal-rate-of-return-irr)
+  - [Examples](#examples-3)
+    - [IRR for an initial investment of $50,000, over 5 years](#irr-for-an-initial-investment-of-50000-over-5-years)
+  - [Parameters](#parameters-3)
+  - [Concept](#concept-3)
 
 # Installation
 
@@ -202,7 +207,7 @@ NPV is a useful tool for evaluating the financial viability of investments or pr
 
 ---
 
-# Net Present Value (NPV)
+# Internal Rate of Return (IRR)
 
 ```javascript
 import { irr } from '@chewhx/financejs';

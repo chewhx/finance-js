@@ -1,4 +1,4 @@
-# Net Present Value (NPV)
+# Internal Rate of Return (IRR)
 
 ```javascript
 import { irr } from '@chewhx/financejs';
