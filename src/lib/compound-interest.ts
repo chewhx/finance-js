@@ -29,3 +29,4 @@ export function compoundInterest({
 
 	return toDecimal(amount, precision);
 }
+

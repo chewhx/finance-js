@@ -33,10 +33,3 @@ export function presentValue({
 	const pv = fv / Math.pow(1 + annualRate / _frequency, years * _frequency);
 	return toDecimal(pv, precision);
 }
-
-presentValue({
-	annualRate: 0.04,
-	years: 5,
-	futureValue: 50000,
-	frequency: 'monthly',
-});
